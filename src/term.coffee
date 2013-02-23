@@ -1,6 +1,5 @@
 class Term
   constructor: (str) ->
-    #console.log str
     @str = str.trim()
     [@sign, @value] = @split_into_sign_and_value()
     @
